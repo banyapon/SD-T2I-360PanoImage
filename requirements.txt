@@ -1,12 +1,11 @@
 torch
 torchvision
 torchaudio
-diffusers==0.26.0
+diffusers==0.26.0  # Pin only the diffusers version, as it's essential
 accelerate
 xformers
 triton
 transformers
-realesrgan==0.3.0
+realesrgan
 py360convert
 numpy==1.23.5  
-chex==0.1.85
